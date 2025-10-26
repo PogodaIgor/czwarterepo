@@ -15,8 +15,14 @@
       <li id="villarrealText">pierogi</li>
     </ul>
 
-    <button id="barcaBtn" onclick="barca()" onmouseover="fcbarca()">
+    <button
+      id="barcaBtn"
+      onclick="barca()"
+      onmouseover="fcbarca()"
+      onmouseleave="fc_barca()"
+    >
       <img
+        id="barcapng"
         src="barca.png"
         alt="Zdjęcie najlepszego klubu"
         width="100"
@@ -24,8 +30,14 @@
       />
     </button>
 
-    <button id="realBtn" onclick="real()" onmouseover="fcreal()">
+    <button
+      id="realBtn"
+      onclick="real()"
+      onmouseover="fcreal()"
+      onmouseleave="fc_real()"
+    >
       <img
+        id="realpng"
         src="real.png"
         alt="Zdjęcie drugiego najlepszego klubu"
         width="100"
@@ -37,8 +49,10 @@
       id="villarrealBtn"
       onclick="villarreal()"
       onmouseover="fcvillarreal()"
+      onmouseleave="fc_villarreal()"
     >
       <img
+        id="villarrealpng"
         src="villarreal.png"
         alt="Zdjęcie klubu który istnieje"
         width="100"
